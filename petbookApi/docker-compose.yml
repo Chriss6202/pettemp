@@ -6,4 +6,4 @@ services:
     image: petbook
     build: .
     ports:
-      - "27017:27017"
+      - "3000:3000"
