@@ -1,0 +1,37 @@
+{
+  "name": "petbookapi",
+  "version": "1.0.0",
+  "description": "petbook api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "DEBUG=PetBook:* nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chriss6202/petbookapi.git"
+  },
+  "keywords": [
+    "petapi"
+  ],
+  "author": "chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chriss6202/petbookapi/issues"
+  },
+  "homepage": "https://github.com/Chriss6202/petbookapi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
