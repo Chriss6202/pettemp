@@ -3,7 +3,7 @@ services:
   app:
     container_name: petbook
     restart: always
-    image: mongo:latest
+    image: petbook
     build: .
     ports:
       - "27017:27017"
