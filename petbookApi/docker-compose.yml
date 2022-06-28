@@ -6,4 +6,4 @@ services:
     image: mongo
     build: .
     ports:
-      - "3000:3000"
+      - "27017:27017"
