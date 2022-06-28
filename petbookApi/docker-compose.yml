@@ -1,9 +1,9 @@
 version: '2.0'
 services:
   app:
-    container_name: petbook
+    container_name: mongo
     restart: always
-    image: petbook
+    image: mongo
     build: .
     ports:
       - "3000:3000"
