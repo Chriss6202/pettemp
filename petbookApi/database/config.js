@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 var debug = require('debug')('PetBook:server');
 
 mongoose
-  .connect(process.env.MONGO_URI || "mongodb://172.17.0.2:27017/petbook")
+  .connect(process.env.MONGO_URI || "mongodb://petbook:27017")
   .then(
     () => {
       debug("Database connected ");
