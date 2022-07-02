@@ -1,9 +1,9 @@
 version: '2.0'
 services:
   app:
-    container_name: webapi
+    container_name: petbookapi
     restart: always
-    image: webapi
+    image: petbookapi
     build: .
     ports:
       - "3000:3000"
