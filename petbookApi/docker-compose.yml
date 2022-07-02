@@ -5,6 +5,6 @@ services:
     restart: always
     image: petbookapi
     build: .
-    network: tulipan
+
     ports:
       - "3000:3000"
